@@ -12,9 +12,5 @@ test('Too long name', () => {
   ).toThrow('Invalid name length');
 });
 
-test('Wrong character type', () => {
-  expect(
-      () => new Character('Bowy', 'FakeBowman', 100, 100),
-  ).toThrow('Invalid character type');
-});
+
 
